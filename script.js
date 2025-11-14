@@ -12,7 +12,7 @@ function converterMoeda(event)
     if(document.getElementById("moedas").value == "EUR")
     {
         let moedaConvertidaEur = moeda * EUR;
-        Total.innerHTML = "<h2>Valor convertido:</h2>" + "€ " + moedaConvertida.toFixed(2);
+        Total.innerHTML = "<h2>Valor convertido:</h2>" + "€ " + moedaConvertidaEur.toFixed(2);
     }
     if(document.getElementById("moedas").value == "CAD")
     {
@@ -25,6 +25,7 @@ function converterMoeda(event)
     }
     
 }
+
 
 
 
